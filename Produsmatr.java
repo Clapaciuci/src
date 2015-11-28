@@ -40,8 +40,13 @@ public class Produsmatr {
 		{
 			intlenght++;
 		}
-		
-		
-		
+	}
+	
+	public static void[][] sum()
+	{
+		int [][]s new int[5][5];
+		for(int i = 0; i < m; i++)
+			for(int j = 0; j < n; j++)
+			s[i][j] = a[i][j] + b[i][j];
 	}
 }
